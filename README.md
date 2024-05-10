@@ -18,9 +18,9 @@ Metode Dekomposisi Crout adalah algoritma yang digunakan untuk menyelesaikan sis
 
 Langkah-langkah untuk Metode Dekomposisi Crout adalah sebagai berikut:
 
-1. Menginisialisasi matriks segitiga bawah \( L \) dengan elemen diagonal utama \( L_{ii} = 1 \) dan menginisialisasi matriks segitiga atas \( U \) dengan nol.
+1. Menginisialisasi matriks segitiga bawah \( L \) dengan elemen diagonal utama \( L_ii = 1 \) dan menginisialisasi matriks segitiga atas \( U \) dengan nol.
 2. Menghitung elemen matriks segitiga atas \( U \) menggunakan rumus iteratif yang mengurangi produk antara elemen-elemen matriks segitiga bawah \( L \) dan matriks segitiga atas \( U \) dari elemen matriks asli \( A \).
 3. Menghitung elemen matriks segitiga bawah \( L \) menggunakan rumus iteratif yang melibatkan elemen-elemen dari matriks segitiga bawah \( L \) dan matriks segitiga atas \( U \) dari matriks asli \( A \).
-4. Setelah mendapatkan matriks segitiga atas \( U \) dan matriks segitiga bawah \( L \), sistem persamaan linear \( Ly = b \) dan \( Ux = y \) diselesaikan untuk mendapatkan solusi \( x \).
+4. Setelah mendapatkan matriks segitiga atas \( U \) dan matriks segitiga bawah \( L \), sistem persamaan linear \(Ly = b\) dan \(Ux = y\) diselesaikan untuk mendapatkan solusi \( x \).
 
 
