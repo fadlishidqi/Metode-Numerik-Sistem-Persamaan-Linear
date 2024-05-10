@@ -23,4 +23,14 @@ Langkah-langkah untuk Metode Dekomposisi Crout adalah sebagai berikut:
 3. Menghitung elemen matriks segitiga bawah \( L \) menggunakan rumus iteratif yang melibatkan elemen-elemen dari matriks segitiga bawah \( L \) dan matriks segitiga atas \( U \) dari matriks asli \( A \).
 4. Setelah mendapatkan matriks segitiga atas \( U \) dan matriks segitiga bawah \( L \), sistem persamaan linear \(Ly = b\) dan \(Ux = y\) diselesaikan untuk mendapatkan solusi \( x \).
 
+# Metode Matriks Balikan
 
+Metode Matriks Balikan adalah salah satu pendekatan dalam aljabar linear untuk menyelesaikan sistem persamaan linear. Dalam metode ini, solusi sistem persamaan linear \(Ax = b\) ditemukan dengan menghitung invers dari matriks koefisien \(A\) dan kemudian mengalikan matriks invers tersebut dengan vektor hasil \(b\).
+
+## Algoritma
+
+Langkah-langkah untuk Metode Matriks Balikan adalah sebagai berikut:
+
+1. **Menghitung Invers Matriks**: Pertama-tama, metode ini menghitung invers dari matriks koefisien \(A\) menggunakan fungsi `np.linalg.inv(A)`.
+2. **Mengalikan Matriks Invers dengan Vektor Hasil**: Selanjutnya, matriks invers \(A\) dikalikan dengan vektor hasil \(b\) menggunakan operasi perkalian matriks (`np.dot(A_inv, b)`).
+3. **Solusi Sistem Persamaan Linear**: Hasil perkalian tersebut akan menjadi solusi dari sistem persamaan linear.
