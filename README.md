@@ -12,23 +12,17 @@ Algoritma Metode Dekomposisi LU Gauss terdiri dari langkah-langkah berikut:
 
 ## Penggunaan
 
-### Fungsi: `metode_lu_gauss(A, b)`
+### Fungsi: `luGauss(A, b)`
 
-Fungsi `metode_lu_gauss` menerima dua parameter: matriks koefisien \( A \) dan vektor konstanta \( b \), dan mengembalikan vektor solusi \( x \) dari sistem persamaan linear \( Ax = b \).
+Fungsi `luGauss` menerima dua parameter: matriks koefisien \( A \) dan vektor konstanta \( b \), dan mengembalikan vektor solusi \( x \) dari sistem persamaan linear \( Ax = b \).
 
 ```python
-import numpy as np
-
-def metode_lu_gauss(A, b):
-    # Implementasi algoritma dekomposisi LU Gauss
-    pass
-
-# Contoh penggunaan
-A = np.array([[3, 2, -2],
-              [-1, -2, 3],
-              [2, 1, 2]])
-b = np.array([6, -5, 4])
+Cntoh penggunaan
+J = np.array([[4, 5, 6],
+              [1, 3, 8],
+              [3, 1, 2]])
+K = np.array([1, 2, 2])
 
 print("Solusi x:")
-print(metode_lu_gauss(A, b))
+print(metode_lu_gauss(J, K))
 
